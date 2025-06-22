@@ -1,69 +1,142 @@
-# Welcome to your Lovable project
+# AITX.ai - Autonomous Security and Facility Management Website
 
-## Project info
+A modern, responsive website for AITX (Artificial Intelligence Technology Solutions Inc.), showcasing their autonomous security and facility management solutions powered by AI and robotics.
 
-**URL**: https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727
+## 🚀 About AITX
 
-## How can I edit this code?
+AITX is a trailblazer in transforming the landscape of physical security, facility automation, and AI-enhanced robotics. Through its flagship platform, Autonomous Intelligent Response (AIR™), AITX leverages the power of AI, computer vision, edge processing, and advanced robotics to deliver scalable, cost-effective, and proactive solutions for organizations across industries.
 
-There are several ways of editing your application.
+## 🛡️ Our Solutions
 
-**Use Lovable**
+### Robotic Security Products
+- **ROAMEO™** - Rugged mobile security robot for large outdoor spaces
+- **RADDOG™** - Quadruped robotic security K9 for law enforcement
+- **HERO™** - Compact high-visibility deterrence unit for critical infrastructure
+- **RIO™** - Rapid deployment tower for events and construction
+- **ROSA™** - Wall-mounted AI device for perimeter monitoring
+- **AVA™** - AI-powered autonomous access control for gated entries
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and start prompting.
+### Technology Platform
+- **AIR™ Platform** - Autonomous Intelligent Response system
+- **RADPack™** - Proprietary AI ecosystem with autonomous decision-making
+- **Computer Vision** - Advanced facial recognition and behavioral analytics
+- **Edge Processing** - Local AI processing for faster response times
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🏢 Subsidiaries
 
-**Use your preferred IDE**
+- **RAD** - Robotic Assistance Devices (Core security robotics)
+- **RAD-M** - Mobile security and patrol solutions
+- **RAD-R** - Remote monitoring and response systems
+- **RAD-G** - Government and law enforcement solutions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS, Shadcn UI, Radix UI
+- **State Management**: React Query (TanStack Query)
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Animations**: CSS animations and Lottie
+- **Forms**: React Hook Form with validation
 
-Follow these steps:
+## 🚀 Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone the repository:
+```bash
+git clone https://github.com/joshbuchwald6/aitx-website.git
+cd aitx-website
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # React components
+│   ├── ui/             # Shadcn UI components
+│   ├── Hero.tsx        # Hero section
+│   ├── Navbar.tsx      # Navigation
+│   ├── SolutionsSection.tsx # Solutions showcase
+│   ├── Features.tsx    # Benefits section
+│   ├── AboutSection.tsx # Company information
+│   ├── Testimonials.tsx # Customer testimonials
+│   ├── Newsletter.tsx  # Newsletter signup
+│   └── Footer.tsx      # Footer
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── main.tsx           # App entry point
+```
 
-This project is built with .
+## 🎨 Design Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Modern UI** - Clean, professional design with Shadcn UI components
+- **Smooth Animations** - CSS animations and scroll-triggered effects
+- **Interactive Elements** - Hover effects and micro-interactions
+- **Accessibility** - ARIA attributes and keyboard navigation support
 
-## How can I deploy this project?
+## 📱 Responsive Design
 
-Simply open [Lovable](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and click on Share -> Publish.
+The website is fully responsive and optimized for:
+- Mobile devices (320px+)
+- Tablets (768px+)
+- Desktop (1024px+)
+- Large screens (1440px+)
 
-## I want to use a custom domain - is that possible?
+## 🔧 Customization
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+### Colors
+The primary color scheme uses Tailwind's pulse color palette:
+- Primary: `pulse-500` (#FE5C02)
+- Secondary: `gray-900` (#111827)
+- Accent: `pulse-100` (#FEF3C7)
+
+### Fonts
+- Display: Brockmann (custom font)
+- Body: System fonts with fallbacks
+
+## 📄 License
+
+This project is proprietary to AITX (Artificial Intelligence Technology Solutions Inc.).
+
+## 🤝 Contributing
+
+This is a private project for AITX. For inquiries about the website or AITX's services, please contact:
+
+- **Email**: info@aitx.ai
+- **Phone**: +1 (555) 123-4567
+- **Address**: 1234 Security Blvd, Tech City, TC 12345
+
+## 🌐 Live Demo
+
+The website is currently running on localhost. For production deployment, contact the development team.
+
+---
+
+**AITX.ai** - Protecting Humans with AI 🤖🛡️
